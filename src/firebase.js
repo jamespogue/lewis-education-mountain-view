@@ -4,12 +4,12 @@ import { getFirestore, /*connectFirestoreEmulator*/  } from "firebase/firestore"
 import { getStorage, /*connectStorageEmulator*/ } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyDa-Fqtd576Ha374xSlS62cXnmQZC5q3d4",
+  authDomain: "lewis-education-mountain-view.firebaseapp.com",
+  projectId: "lewis-education-mountain-view",
+  storageBucket: "lewis-education-mountain-view.firebasestorage.app",
+  messagingSenderId: "359253405874",
+  appId: "1:359253405874:web:b1cc87a5d650e86f41d9ab"
 };
 
 const app = initializeApp(firebaseConfig);
